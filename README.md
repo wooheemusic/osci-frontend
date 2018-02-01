@@ -16,4 +16,7 @@ This repository is for submission of study examples.
  - not confirmed yet
 
 ## update logs
-- nothing yet
+ - nothing yet
+
+## study logs
+ - nothing yet
