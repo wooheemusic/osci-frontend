@@ -11,6 +11,9 @@ This repository is for submission of study examples.
  - athena-roro-frontend review
  - selective study of angular2 official fundamentals
  - write basic examples and push them to this repo. (let me email for this issue)
+ 
+3rd week, Feb :
+ - not confirmed yet
 
 ## update logs
 - nothing yet
