@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Page Title</title>
+  <!-- <script id="s1" src="./some.js" onload="this.parsed=true"></script> -->
+  <!-- <script defer id="s1" src="./some.js"></script> -->
+  <!-- <script async id="s1" src="./some.js"></script> -->
+  <script>
+  console.log("> 1st script element start");
+    console.dir(window);
+
+    setTimeout(function(){
+      console.log("* setTimeout 0 before promise declarations from 1st script element.")
+    }, 0);
+
+    new Promise(function(s, j) {
+      console.log("1st promise start");
+      const script = document.createElement('script');
+      script.src = './some.js';
+      script.onload = s; //j;
+      script.onerror = j;
+      document.head.appendChild(script);
+    }).then((...x) => {
+      console.log("* some.js loaded", x); // x is [Event]
+    }).catch((...x) => {
+      console.log(x);
+    });
+
+    new Promise(function(s, j) {
+      console.log("2nd promise start");
+      s();
+    }).then(() => {
+      console.log("* i am not excuted in this frame but not like setTimeout 0. No event interrupts me. (tested in another test only for the most recent chrome.)");
+    });
+
+    setTimeout(function(){
+      console.log("* setTimeout 0 after promise declarations from 1st script element.")
+    }, 0);
+
+    if ("s1" in window) {
+      console.log(s1.parsed, s1.async, s1.defer);
+    }
+    console.log('"doSomething" in window : ', "doSomething" in window) // false on promise, async and defer
+    console.log("> 1st script element end");
+  </script>
+</head>
+
+<body>
+  1
+  <script>
+    console.log("> 2nd script element start");
+
+    document.addEventListener("readystatechange", function() {
+      console.log("document.readyState : ", document.readyState);
+    });
+    console.log("> 2nd script element end");
+  </script>
+
+</body>
+
+</html>

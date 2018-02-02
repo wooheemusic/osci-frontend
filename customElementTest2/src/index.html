@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>simple test area</title>
+</head>
+<body>
+
+<script>
+
+console.dir(document);
+
+document.addEventListener("readystatechange", function(){
+  console.log("document.readyState : ", document.readyState);
+});
+
+class Speaker extends HTMLParagraphElement {
+  speak() {
+    return "i am " + this.name;
+  }
+
+  constructor() {
+    super();
+    console.log("constructor arguments :", arguments);
+    console.log("constructor this :", this);
+    console.dir(this);
+    this.name = "aaaaaahhhhh";
+    // console.log(name, "is constructed");
+    this.addEventListener('click', (event) => {
+      console.log("this: ", this); // speak method property not shown?
+      console.dir(this);
+      console.log("this instanceof Speaker", this instanceof Speaker);
+      console.log("this.hasOwnProperty('speak')", this.hasOwnProperty("speak"));
+      var prot = Object.getPrototypeOf(this);
+      console.log("Object.getPrototypeOf(this).constructor.name", prot.constructor.name);
+      console.log("Object.getPrototypeOf(this).hasOwnProperty('speak')", prot.hasOwnProperty("speak"));
+      console.log("this.hasOwnProperty('name')", this.hasOwnProperty("name"));
+      alert(this.speak());
+
+    });
+  }
+
+  connectedCallback() {
+    console.log("connectedCallback of Speaker");
+  }
+
+};
+
+class LoudSpeaker extends Speaker {
+  speak(){
+    return super.speak() + " !!!!!!!!!!!!";
+  }
+}
+customElements.define('x-speaker', LoudSpeaker, {extends : 'p'});
+console.log("A custum element 'p' is defined as 'x-speaker'.");
+</script>
+
+<p is="x-speaker" id="ppp">i am a custom element 'p' as 'x-speaker'. click me to hear my voice.</p>
+
+<script>
+console.dir(ppp);
+</script>
+
+</body>
+</html>

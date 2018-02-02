@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>simple test area</title>
+</head>
+<body>
+
+<script type="module">
+  // <script defer type="module">
+
+        //  import { default as Speaker, test, LoudSpeaker } from "/components/speaker.js";
+          import { test, LoudSpeaker } from "/components/speaker.js";
+
+          // var speaker = new Speaker("jean"); //new.target is not a valid custom element constructor
+          // console.log(speaker);
+          // speaker.innerHTML = "i am jean";
+          // document.body.appendChild(speaker);
+
+          //console.log(LoudSpeaker, test);
+          //test();
+          customElements.define('x-speaker', LoudSpeaker);
+          // customElements.define('x-speaker', LoudSpeaker, {extends : 'p'});
+          console.log("A custum element 'x-speaker' is defined.");
+</script>
+
+<script>
+console.dir(document);
+
+document.addEventListener("readystatechange", function(){
+  console.log("document.readyState : ", document.readyState);
+});
+</script>
+
+<x-trudy> can you see me?</x-trudy>
+<p>-</p>
+<x-speaker>i am a custom element 'x-speaker'. click me to hear my voice.</x-speaker>
+
+</body>
+</html>
