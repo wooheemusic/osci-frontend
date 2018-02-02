@@ -16,14 +16,23 @@ This repository is for submission of study examples.
  - not confirmed yet
 
 ## update logs
+
  - thu & fri, 1st week, Feb: 
+ 
  https://github.com/wooheemusic/osci-frontend/tree/master/customElementTest
+ 
  https://github.com/wooheemusic/osci-frontend/tree/master/customElementTest2 (failed, no browser support maybe)
+ 
  https://github.com/wooheemusic/osci-frontend/tree/master/promiseTest
+ 
  https://github.com/wooheemusic/angular-heroes
 
 ## study logs
+
  - thu & fri, 1st week, Feb :
+ 
  custom element https://developers.google.com/web/fundamentals/web-components/customelements?hl=ko
+ 
  promise
+ 
  angular tutorial 1~4(/8) https://angular.io/tutorial
