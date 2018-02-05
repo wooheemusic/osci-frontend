@@ -13,7 +13,9 @@ This repository is for submission of study examples.
  - write basic examples and push them to this repo. (let me email for this issue)
  
 3rd week, Feb :
- - not confirmed yet
+ - athena-roro-frontend review
+ - selective study of angular2 official fundamentals and techniques.
+ - write basic examples and push them to this repo. (let me email for this issue)
 
 ## update logs
 
@@ -26,6 +28,10 @@ This repository is for submission of study examples.
  https://github.com/wooheemusic/osci-frontend/tree/master/promiseTest
  
  https://github.com/wooheemusic/angular-heroes
+ 
+ - mon, 2nd week, Feb
+ 
+ https://github.com/wooheemusic/angular-heroes (updated, angular tutorial 5~6.5(/8))
 
 ## study logs
 
@@ -36,3 +42,7 @@ This repository is for submission of study examples.
  promise
  
  angular tutorial 1~4(/8) https://angular.io/tutorial
+ 
+ - mon, 2nd week, Feb :
+ 
+ angular tutorial 5~6.5(/8) dividing components, services, Observable https://angular.io/tutorial
