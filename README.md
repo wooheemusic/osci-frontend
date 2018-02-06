@@ -33,7 +33,7 @@ This repository is for submission of study examples.
  
  https://github.com/wooheemusic/angular-heroes (updated, angular tutorial 5~6.5(/8))
  
- - tue, 2nn week, Feb
+ - tue, 2nd week, Feb
  
  https://github.com/wooheemusic/angular-heroes (updated, angular tutorial 1~6(/8))
 
