@@ -32,6 +32,10 @@ This repository is for submission of study examples.
  - mon, 2nd week, Feb
  
  https://github.com/wooheemusic/angular-heroes (updated, angular tutorial 5~6.5(/8))
+ 
+ - tue, 2nn week, Feb
+ 
+ https://github.com/wooheemusic/angular-heroes (updated, angular tutorial 1~6(/8))
 
 ## study logs
 
@@ -46,3 +50,7 @@ This repository is for submission of study examples.
  - mon, 2nd week, Feb :
  
  angular tutorial 5~6.5(/8) dividing components, services, Observable https://angular.io/tutorial
+ 
+ - tue, 2nd week, Feb :
+ 
+ angular logging, chrome extention 'angular augury', angular setter and NgZone
