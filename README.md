@@ -9,12 +9,12 @@ This repository is for submission of study examples.
  
 2nd week, Feb :
  - athena-roro-frontend review
- - selective study of angular2 official fundamentals
+ - selective study of angular2 official fundamentals & react
  - write basic examples and push them to this repo. (let me email for this issue)
  
 3rd week, Feb :
  - athena-roro-frontend review
- - selective study of angular2 official fundamentals and techniques.
+ - selective study of angular2 official fundamentals and techniques & react
  - write basic examples and push them to this repo. (let me email for this issue)
 
 ## update logs
@@ -36,6 +36,10 @@ This repository is for submission of study examples.
  - tue, 2nd week, Feb
  
  https://github.com/wooheemusic/angular-heroes (updated, angular tutorial 1~6(/8))
+ 
+ - wed, 2nd week, Feb
+ 
+ https://github.com/wooheemusic/angular-heroes (updated, angular tutorial 1~8 (ongoing)(/8))
 
 ## study logs
 
@@ -54,3 +58,7 @@ This repository is for submission of study examples.
  - tue, 2nd week, Feb :
  
  angular logging, chrome extention 'angular augury', angular setter and NgZone
+ 
+ - wed, 2nd week, Feb :
+ 
+ routing, @angular/common/http & Observable
