@@ -14,8 +14,7 @@ This repository is for submission of study examples.
  
 3rd week, Feb :
  - athena-roro-frontend review
- - selective study of angular2 official fundamentals and techniques & react
- - write basic examples and push them to this repo. (let me email for this issue)
+ - athena-roro react problem (http://jira.osci.kr/browse/SB-38)
 
 ## update logs
 
@@ -40,6 +39,12 @@ This repository is for submission of study examples.
  - wed, 2nd week, Feb
  
  https://github.com/wooheemusic/angular-heroes (updated, angular tutorial 1~8 (ongoing)(/8))
+ 
+ - thu, 2nd week, Feb
+ 
+ https://github.com/wooheemusic/angular-heroes (updated, angular tutorial done)
+ 
+ https://github.com/wooheemusic/roro-react (created)
 
 ## study logs
 
@@ -62,3 +67,7 @@ This repository is for submission of study examples.
  - wed, 2nd week, Feb :
  
  routing, @angular/common/http & Observable
+ 
+ - thu, 2nd week, Feb :
+ 
+ rxjs, NgModule, athena-roro angular review, bcrypt
