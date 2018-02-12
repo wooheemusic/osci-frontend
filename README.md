@@ -5,16 +5,17 @@ This repository is for submission of study examples.
 
 1st week, Feb : 
  - thu, study background knowledge on angular2 ( web component and so on) and angular 2 official tutorials
- - fri, write basic examples and push them to this repo. (let me email for this issue)
+ - fri, write basic examples
  
 2nd week, Feb :
  - athena-roro-frontend review
  - selective study of angular2 official fundamentals & react
- - write basic examples and push them to this repo. (let me email for this issue)
+ - write basic examples
  
 3rd week, Feb :
  - athena-roro-frontend review
- - athena-roro react problem (http://jira.osci.kr/browse/SB-38)
+ - athena-roro react log-in problem (http://jira.osci.kr/browse/SB-38)
+ - athena-roro react sign-up problem (http://jira.osci.kr/browse/SB-43)
 
 ## update logs
 
@@ -70,4 +71,10 @@ This repository is for submission of study examples.
  
  - thu, 2nd week, Feb :
  
- rxjs, NgModule, athena-roro angular review, bcrypt
+ rxjs, NgModule, athena-roro-frontend review, bcrypt
+ 
+ - mon, 3rd week, Feb :
+ 
+ angular tutorial & athena-roro-frontend review
+ 
+ angular fundamentals https://angular.io/guide/architecture
