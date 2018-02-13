@@ -78,3 +78,9 @@ This repository is for submission of study examples.
  angular tutorial & athena-roro-frontend review
  
  angular fundamentals https://angular.io/guide/architecture
+ 
+ - tue, 3rd week, Feb "
+ 
+ athena-roro-frontend review, angular dependency injection & scope & service, angular resolve interface, 
+ 
+ react official 'quick start' doc, velopert.log react tutorial
