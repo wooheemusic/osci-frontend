@@ -46,6 +46,11 @@ This repository is for submission of study examples.
  https://github.com/wooheemusic/angular-heroes (updated, angular tutorial done)
  
  https://github.com/wooheemusic/roro-react (created)
+ 
+ - mon, 4th week, Feb
+ 
+ https://github.com/wooheemusic/roro-react (updated, SB-38 done)
+ 
 
 ## study logs
 
@@ -88,4 +93,8 @@ This repository is for submission of study examples.
  - wed, 3rd week, Feb :
 
  roro react review, axios, redux
+ 
+ - mon, 4th week, Feb :
+ 
+ roro react & angular review, react structure
  
