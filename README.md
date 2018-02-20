@@ -16,10 +16,14 @@ This repository is for submission of study examples.
  - athena-roro-frontend review
  - athena-roro react log-in problem (http://jira.osci.kr/browse/SB-38)
  - athena-roro react sign-up problem (http://jira.osci.kr/browse/SB-43)
+ 
+4th week, Feb :
+ - athena-roro react login, session, routing, redux, ajax, validation
+ - react official doc and extra APIs
 
 ## update logs
 
- - thu & fri, 1st week, Feb: 
+ - thu & fri, 1st week, Feb : 
  
  https://github.com/wooheemusic/osci-frontend/tree/master/customElementTest
  
@@ -29,27 +33,31 @@ This repository is for submission of study examples.
  
  https://github.com/wooheemusic/angular-heroes
  
- - mon, 2nd week, Feb
+ - mon, 2nd week, Feb :
  
  https://github.com/wooheemusic/angular-heroes (updated, angular tutorial 5~6.5(/8))
  
- - tue, 2nd week, Feb
+ - tue, 2nd week, Feb :
  
  https://github.com/wooheemusic/angular-heroes (updated, angular tutorial 1~6(/8))
  
- - wed, 2nd week, Feb
+ - wed, 2nd week, Feb :
  
  https://github.com/wooheemusic/angular-heroes (updated, angular tutorial 1~8 (ongoing)(/8))
  
- - thu, 2nd week, Feb
+ - thu, 2nd week, Feb :
  
  https://github.com/wooheemusic/angular-heroes (updated, angular tutorial done)
  
  https://github.com/wooheemusic/roro-react (created)
  
- - mon, 4th week, Feb
+ - mon, 4th week, Feb :
  
  https://github.com/wooheemusic/roro-react (updated, SB-38 done)
+ 
+ - tue, 4th week, Feb :
+ 
+ https://bitbucket.org/osci_rnd/frontend/overview (updated, login routing, session)
  
 
 ## study logs
@@ -97,4 +105,8 @@ This repository is for submission of study examples.
  - mon, 4th week, Feb :
  
  roro react & angular review, react structure
+ 
+ - tue, 4th week, Feb :
+ 
+ react-router withRouter, vscode, sourcetree, react validation
  
