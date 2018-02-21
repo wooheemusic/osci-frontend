@@ -59,6 +59,10 @@ This repository is for submission of study examples.
  
  https://bitbucket.org/osci_rnd/frontend/overview (updated, login routing, session)
  
+ - wed, 4th week, Feb :
+ 
+ https://bitbucket.org/osci_rnd/frontend/overview (updated, delete logs double-quotes semi-colons)
+ 
 
 ## study logs
 
@@ -109,4 +113,9 @@ This repository is for submission of study examples.
  - tue, 4th week, Feb :
  
  react-router withRouter, vscode, sourcetree, react validation
+ 
+ - wed, 4th week, Feb :
+ 
+ store, rest api, cooperation conventions
+ 
  
